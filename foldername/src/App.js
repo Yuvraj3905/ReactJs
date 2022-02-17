@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-  
-var name = "Learner";
-  
-var element = <h1>Hello, { name }.Welcome to GeeksforGeeks.</h1>;
-   
-ReactDOM.render(
-    element, 
-    document.getElementById("root")
-);
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      var myNew=document.createElement("p");
+      myNew.innerHTML="this is a paragraph";
+    </div>
+  );
+}
+
+export default App;
 // import React from 'react'
 // import "antd/dist/antd.css";
 // import { TimePicker } from 'antd';
